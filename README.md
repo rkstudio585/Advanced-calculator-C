@@ -32,6 +32,8 @@ To use the Advanced Calculator, you need a C compiler. Follow these steps to set
 
 2. **Compile the Program**:
    ```bash
+   gcc -o calculator Simple.c -lm
+   gcc -o calculator Next-level.c -lm
    gcc -o calculator main.c -lm
    ```
 
